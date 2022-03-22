@@ -2,13 +2,13 @@
 
 # Portfolio-Mobile version skelton
 
-> In this project I have write html header with h1 and changes its style so that background and text color will be change. Added workflow file.And Create a pull request.
+> In this project I've used Flexbox to style my Porfolio page. The flexbox is very versatile and easy to use.It helps a lot in difficult tasks by making them easy and responsive.
 
 
 ## Built With
 
 - HTML
-- CSS
+- CSS (Flexbox)
 - Github workflows
 
 ## Live Demo 
@@ -21,9 +21,10 @@
 To get a local copy up and running follow these simple example steps.
 
 - Clone repository in your local machine 
-- git clone https://github.com/sajid-munawar/First_Microverse_Project.git
-- cd First_Microverse_Project
+- git clone https://github.com/sajid-munawar/Portfolio_website.git
+- cd Portfolio website
 - open `index.html` in your browser.
+- You can use live server.
 
 
 
