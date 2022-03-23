@@ -12,7 +12,7 @@
 }
 
 .title {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
@@ -31,7 +31,7 @@
 }
 
 .hero h1 {
-  font-family: 'Crete Round';
+  font-family: "Crete Round";
   color: #ff6b00;
   font-size: 56px;
   letter-spacing: 0.37px;
@@ -40,7 +40,7 @@
 }
 
 .hero h3 {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
@@ -48,7 +48,7 @@
 }
 
 .hero .content {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,4 +64,86 @@
 
 .social li {
   padding: 0 12px;
+}
+
+.works h1 {
+  display: grid;
+  grid-template: 83px/327px;
+  align-items: center;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  padding-top: 120px;
+  /* margin-top: 120px; */
+  margin: auto 24px;
+}
+
+.works .vector {
+  display: grid;
+  grid: 0px 327px;
+  padding: 24px;
+}
+
+.works .placeholder {
+  padding-top: 60px;
+  margin: auto 24px;
+}
+
+.works h2 {
+  display: grid;
+  grid-template: 36px/327px;
+  align-items: center;
+  font-family: "Crete Round";
+  color: #091e42;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0 24px;
+  padding-top: 24px;
+}
+
+.works p {
+  display: grid;
+  grid-template-columns: 127px/347px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  color: #091e42;
+}
+
+.works ul {
+  display: flex;
+  list-style: none;
+  padding-left: 24px;
+  /* justify-content: space-around; */
+}
+
+.works li {
+  align-items: center;
+  padding: 10px 12px;
+  margin: 5px;
+  border: 1px solid #8993a4;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+}
+
+.works div{
+  height: 24px; ;
+  width: 100px;
+  /* display: grid; */
+  /* grid-template: 24px/100px; */
+  align-items: center;
+margin: 12px;
+background: #FF6B00;
 }
