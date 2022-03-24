@@ -127,7 +127,7 @@
 
 .works li {
   align-items: center;
-  padding: 12px 12px;
+  padding: 10px 12px;
   margin-right: 12px;
   border: 1px solid #8993a4;
   font-family: "Inter";
@@ -149,4 +149,75 @@
   padding: 12px;
   margin-left: 24px;
   margin-top: 12px;
+}
+
+.art {
+  background: url("./images/bg.png");
+  background-repeat: no-repeat;
+  /* margin:0 24px; */
+}
+.marg {
+  margin: 0 24px;
+}
+
+.art h1 {
+  display: grid;
+  grid-template: 36px/327px;
+  align-items: center;
+  font-family: "Crete Round";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0 24px;
+  padding-top: 108px;
+}
+
+.art p {
+  display: grid;
+  grid-template-columns: 127px/347px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.art ul {
+  display: flex;
+  list-style: none;
+  padding-left: 24px;
+  /* justify-content: space-around; */
+}
+
+.art li {
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 12px;
+  border: 1px solid #8993a4;
+  background: rgba(255, 255, 255, 0.24);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.art h4{
+  /* width: ; */
+  text-align: center;
+  background-color: #ff6b00;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 12px 12px;
+  /* margin-left: 24px; */
+  margin-top: 22px;
 }
