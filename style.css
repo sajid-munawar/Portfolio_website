@@ -256,7 +256,10 @@
 
 .aboutMe {
   padding-top: 100px;
-  background: #1c1a19;
+  background: #1c1a19 url("./images/Frame.png");
+  background-repeat: no-repeat;
+  background-position-x:right ;
+  background-position-y: 120%;
 }
 
 .aboutMe h1 {
@@ -322,7 +325,20 @@
   margin-top: 22px;
 }
 
-.aboutMe img {
+/* .aboutMe img {
   margin-top: 209px ;
-  border: 1px solid gray;
+  margin: 0 24px;
+} */
+
+.aboutMe .vector {
+  border: 0.1px solid gray; 
+/* margin-top: 209px; */
+  display: grid;
+  grid: 0px 327px;
+  margin:209px 24px 0 24px;
+  /* background: #1c1a19; */
+}
+
+.end {
+  margin-top: 50px;
 }
