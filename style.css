@@ -65,7 +65,7 @@
   padding: 0 12px;
 }
 
-.works h1 {
+.works h2 {
   display: grid;
   grid-template: 83px/327px;
   align-items: center;
@@ -91,7 +91,7 @@
   margin: auto 24px;
 }
 
-.works h2 {
+.works h6 {
   display: grid;
   grid-template: 36px/327px;
   align-items: center;
@@ -167,13 +167,14 @@
 .art {
   background: url("./images/bg.png");
   background-repeat: no-repeat;
+  padding-bottom: 24px;
 }
 .marg {
   margin: 0 24px;
   margin-bottom: 120px;
 }
 
-.art h1 {
+.art h2 {
   display: grid;
   grid-template: 36px/327px;
   align-items: center;
@@ -254,9 +255,10 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 350px;
+  padding-bottom: 120px;
 }
 
-.aboutMe h1 {
+.aboutMe h2 {
   font-family: "Crete Round";
   margin: 0 24px;
   font-style: normal;
@@ -310,14 +312,35 @@
 }
 
 .aboutMe .vector {
-  margin: 209px 24px 0 24px;
+  margin: 209px 24px 136px 24px;
 }
-
+/* 
 .aboutMe ul {
   padding: 131px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+
+.
+*/
+
+.first img {
+  padding-right: 12px;
+  margin-left: -21px;
+}
+
+.aboutMe span {
+  margin: 24px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #ffffff;
 }
 
 .aboutMe ul > li {
@@ -332,18 +355,14 @@
   color: #ffffff;
 }
 
-.aboutMe .first {
-  margin: 24px 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+.aboutMe ul {
+  color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  color: #ffffff;
+  list-style: none;
 }
 
-.first img {
-  padding-right: 12px;
+.aboutMe li {
+  /* display: flex; */
 }
