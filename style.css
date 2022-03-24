@@ -127,8 +127,8 @@
 
 .works li {
   align-items: center;
-  padding: 10px 12px;
-  margin: 5px;
+  padding: 12px 12px;
+  margin-right: 12px;
   border: 1px solid #8993a4;
   font-family: "Inter";
   font-style: normal;
@@ -138,12 +138,15 @@
   color: #091e42;
 }
 
-.works div{
-  height: 24px; ;
-  width: 100px;
-  /* display: grid; */
-  /* grid-template: 24px/100px; */
-  align-items: center;
-margin: 12px;
-background: #FF6B00;
+.works h4 {
+  width: 124px;
+  background-color: #ff6b00;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 12px;
+  margin-left: 24px;
+  margin-top: 12px;
 }
