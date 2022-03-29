@@ -314,18 +314,6 @@
 .aboutMe .vector {
   margin: 209px 24px 136px 24px;
 }
-/* 
-.aboutMe ul {
-  padding: 131px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-.
-*/
 
 .first img {
   padding-right: 12px;
@@ -361,5 +349,37 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
+}
+
+/* footer {
+  display: flex;
+  font-display: column;
+} */
+
+footer p {
+  /* position: static; */
+  width: 327px;
+  height: 216px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+  padding-left: 36px;
+  text-align:center;
+  margin-top: 160px;
+}
+
+form  {
+  display: flex;
+  
 }
 
