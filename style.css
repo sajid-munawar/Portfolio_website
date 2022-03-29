@@ -380,6 +380,58 @@ footer p {
 
 form  {
   display: flex;
-  
-}
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 4;
+  }
+
+  input {
+    width: 90%;
+    height: 52px;
+    /* padding: 32px; */
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #dfdfe0; 
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 90%;
+    padding: 60px;
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #dfdfe0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  button {
+    width: 50%;
+    padding: 20px;
+    margin: 15px;
+    background: #ff6b00;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 24px;
+  }
+
+  .sociallist {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 5px;
+  }
+
+  .sociallist_link > a > img {
+    width: 50px;
+    height: 25px;
+    margin: 50px;
+    border-bottom: 10px;
+    
+
+  }
+
 
