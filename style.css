@@ -65,6 +65,10 @@
   padding: 0 12px;
 }
 
+.works {
+  padding-bottom: 24px;
+}
+
 .works h2 {
   display: grid;
   grid-template: 83px/327px;
@@ -167,7 +171,7 @@
 .art {
   background: url("./images/bg.png");
   background-repeat: no-repeat;
-  padding: 24px;
+  margin-bottom: 24px;
 }
 .marg {
   margin: 0 24px;
@@ -371,8 +375,8 @@ footer p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 24px 0px;
-  padding-left: 36px;
+  margin: 0 24px;
+  margin-bottom: 73px;
   text-align: center;
 }
 
@@ -412,7 +416,7 @@ form button {
   border: none;
   width: 131px;
   height: 48px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -446,13 +450,13 @@ form button {
 
 form input {
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   padding-left: 15px;
 }
 
 form textarea {
   border: none;
-  background-color:#FBF8F7;
+  background-color: #fbf8f7;
   padding-left: 15px;
   height: 114px;
   width: 327px;
