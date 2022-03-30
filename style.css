@@ -111,7 +111,7 @@ footer p {
   margin-top: 150px;
   width: 327px;
   height: 216px;
-  left: 0px;
+  left: 0;
   top: 1px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -123,9 +123,7 @@ footer p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 24px;
-  margin-bottom: 73px;
-  text-align: center;
+  margin: 0 24px 73px 24px;
 }
 
 .works p {
