@@ -167,7 +167,7 @@
 .art {
   background: url("./images/bg.png");
   background-repeat: no-repeat;
-  padding-bottom: 24px;
+  padding: 24px;
 }
 .marg {
   margin: 0 24px;
@@ -351,17 +351,16 @@
   list-style: none;
 }
 
-/* footer {
-  display: flex;
-  font-display: column;
-} */
+footer {
+  margin-top: 100px;
+}
 
 footer p {
-  /* position: static; */
+  margin-top: 150px;
   width: 327px;
   height: 216px;
   left: 0px;
-  top: 0px;
+  top: 1px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -375,7 +374,6 @@ footer p {
   margin: 24px 0px;
   padding-left: 36px;
   text-align: center;
-  margin-top: 160px;
 }
 
 form {
@@ -389,7 +387,6 @@ form {
 input {
   width: 90%;
   height: 52px;
-  /* padding: 32px; */
   margin: 5px;
   background-color: #fff;
   border: 2px solid #dfdfe0;
@@ -400,6 +397,7 @@ input {
 textarea {
   width: 90%;
   padding: 60px;
+  padding-top: 22px;
   margin: 5px;
   background-color: #fff;
   border: 2px solid #dfdfe0;
@@ -408,14 +406,18 @@ textarea {
 }
 
 form button {
-  width: 50%;
-  padding: 20px;
   margin: 15px;
   background: #ff6b00;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  border: none;
+  width: 131px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
   line-height: 24px;
+  margin-bottom: 124px;
 }
 
 .sociallist {
@@ -440,4 +442,18 @@ form button {
 .shape {
   padding-top: 8px;
   margin-left: 122px;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  padding-left: 15px;
+}
+
+form textarea {
+  border: none;
+  background-color:#FBF8F7;
+  padding-left: 15px;
+  height: 114px;
+  width: 327px;
 }
