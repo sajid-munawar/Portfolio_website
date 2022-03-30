@@ -215,8 +215,8 @@ form button {
 }
 
 form button:active {
-  color: #f4f1f0; 
-  background-color: #e05304; 
+  color: #f4f1f0;
+  background-color: #e05304;
 }
 
 form button:disabled {
