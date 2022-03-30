@@ -214,9 +214,20 @@ form button {
   margin-top: 22px;
 }
 
+form button:active {
+  color: #F4F1F0;
+  background-color: #E05304;
+}
+
+form button:disabled {
+  background-color: #F4F1F0;
+  color: #5B5957;
+}
+
 form button:hover {
-  background-color: #fff;
-  color: #ff6b00;
+  border: 1px solid #F55800;
+  color: #F55800;
+  background: #FFF5E1;
 }
 
 .works button:hover {
