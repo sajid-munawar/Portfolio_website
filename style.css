@@ -215,19 +215,19 @@ form button {
 }
 
 form button:active {
-  color: #F4F1F0;
-  background-color: #E05304;
+  color: #f4f1f0; 
+  background-color: #e05304; 
 }
 
 form button:disabled {
-  background-color: #F4F1F0;
-  color: #5B5957;
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 form button:hover {
-  border: 1px solid #F55800;
-  color: #F55800;
-  background: #FFF5E1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  background: #fff5e1;
 }
 
 .works button:hover {
