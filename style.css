@@ -214,20 +214,21 @@ form button {
   margin-top: 22px;
 }
 
+form button:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background: #fff5e1;
+}
+
 form button:active {
   color: #f4f1f0;
   background-color: #e05304;
+  transform: translateY(4px);
 }
 
 form button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
-}
-
-form button:hover {
-  border: 1px solid #f55800;
-  color: #f55800;
-  background: #fff5e1;
 }
 
 .works button:hover {
