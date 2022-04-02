@@ -251,7 +251,7 @@ form button:disabled {
   margin-bottom: 24px;
 }
 
-.marg {
+.margin_mobil {
   margin: 0 24px;
   margin-bottom: 120px;
 }
@@ -472,14 +472,43 @@ form textarea {
   width: 327px;
 }
 
-  /* @media screen and (max-width: 767px) {
-    .hero {
-      display: none;
-    }
-  } */
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .works .placeholder {
+    padding-top: 60px;
+    margin: 0;
+}
 
+  }
 
 @media (min-width: 768px) {
+  .top-section {
+    height: 72px;
+    padding: 26px 100px;
+  }
+  .menu-wrapper {
+    display: none;
+  }
+  .nav-list {
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    /* padding: 0 50px; */
+    display: flex;
+    align-content: space-between;
+  }
+  .nav-item {
+    margin-left: 32px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .hero {
     background: #1c1a19 url(./images/HeaderIcons/desktop_illustation.png);
     background-repeat: no-repeat;
@@ -491,7 +520,7 @@ form textarea {
     gap: 40px;
   }
   .heroheadings {
-    display: flex;
+    /* display: flex; */
   }
   .social {
     display: flex;
@@ -507,4 +536,46 @@ form textarea {
   .content {
     width: 50%;
   }
+  
+  .yoga {
+    display: flex;
+  }
+
+  .part2 {
+    padding: 10%;
+  }
+
+
+
+  .cards {
+    display: grid;
+    /* grid-template-rows: auto ; */
+    grid-template-rows: 435px 435px;
+   /* grid-template-columns: auto auto auto; */
+   grid-template-columns: 33% 33% 33%;
+   grid-gap: 5px;
+  }
+  .works h2 {
+    padding-top: 0;
+  }
+  .recent {
+    display: flex;
+  }
+
+   .works .vector {
+    display: none;
+  }
+
+  .line{
+    padding-top: 4%;
+}
+
+.works .placeholder {
+    padding-top: 36px;
+    /* margin: auto 24px; */
+}
+hr {
+  width: 300px;
+}
+
 }
