@@ -472,6 +472,13 @@ form textarea {
   width: 327px;
 }
 
+  /* @media screen and (max-width: 767px) {
+    .hero {
+      display: none;
+    }
+  } */
+
+
 @media (min-width: 768px) {
   .hero {
     background: #1c1a19 url(./images/HeaderIcons/desktop_illustation.png);
@@ -479,8 +486,19 @@ form textarea {
     background-size: 380px;
     background-position-x: right;
     background-position-y: -44px;
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 300px 300px;
   }
-  .hero ul {
-    float: left;
+  .heroheadings {
+    order: 2;
+  }
+  .social {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .marg {
+    display: grid;
+    grid-template-rows: repeat(3,33.33%);
   }
 }
