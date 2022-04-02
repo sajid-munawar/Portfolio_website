@@ -107,6 +107,11 @@
   padding-top: 24px;
 }
 
+button,
+p {
+  max-width: 328px;
+}
+
 footer p {
   width: 327px;
   height: 216px;
@@ -152,6 +157,14 @@ footer p {
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+}
+
+button {
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  font-size: 18px;
 }
 
 form button {
@@ -414,19 +427,6 @@ form textarea {
   padding-left: 15px;
 }
 
-button {
-  height: 48px;
-  background-color: #ff6b00;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-}
-
-button,
-p {
-  max-width: 328px;
-}
-
 .tech-ul-li {
   padding: 10px;
   background-color: rgb(255, 255, 255, 25%);
@@ -451,9 +451,11 @@ p {
   .nav-list {
     display: none;
   }
+
   .line {
     display: none;
   }
+
   .works .placeholder {
     padding-top: 60px;
     margin: 0;
@@ -465,19 +467,22 @@ p {
     height: 72px;
     padding: 26px 100px;
   }
+
   .menu-wrapper {
     display: none;
   }
+
   .nav-list {
     font-family: "Inter", sans-serif;
     list-style: none;
-    /* padding: 0 50px; */
     display: flex;
     align-content: space-between;
   }
+
   .nav-item {
     margin-left: 32px;
   }
+
   .nav-item a {
     text-decoration: none;
     color: #fff;
@@ -494,9 +499,7 @@ p {
     gap: 40px;
     justify-content: flex-end;
   }
-  .heroheadings {
-    /* display: flex; */
-  }
+
   .social {
     display: flex;
     flex-direction: column;
@@ -534,15 +537,15 @@ p {
 
   .cards {
     display: grid;
-    /* grid-template-rows: auto ; */
     grid-template-rows: 435px 435px;
-    /* grid-template-columns: auto auto auto; */
     grid-template-columns: 33% 33% 33%;
     grid-gap: 20px;
   }
+
   .works h2 {
     padding-top: 0;
   }
+
   .recent {
     display: flex;
   }
@@ -557,8 +560,8 @@ p {
 
   .works .placeholder {
     padding-top: 36px;
-    /* margin: auto 24px; */
   }
+
   .desktop-for-ul > ul {
     justify-content: space-around;
     display: flex;
@@ -566,18 +569,28 @@ p {
     align-items: flex-start;
     margin: 0 30px;
   }
+
   .aboutMe ul {
     align-items: start;
   }
+
   .aboutMe-desktop {
     margin-left: 10%;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
+
+  footer p {
+    color: #262626;
+    margin-top: 0;
+    text-align: left;
+  }
+
   .aboutMe-desktop p {
     width: 40%;
   }
+
   .aboutMe {
     background: #1c1a19 url("./images/footerIcon2/background-aboutme.png");
     background-repeat: no-repeat;
@@ -586,24 +599,24 @@ p {
     background-size: 40%;
     margin-top: 111px;
   }
+
   .aboutMe .vector {
     display: none;
   }
+
   hr {
     margin: 10%;
   }
+
   .divider {
     display: flex;
     justify-content: center;
   }
-  footer p {
-    color: #262626;
-    margin-top: 0;
-    text-align: left;
-  }
+
   .shape {
     display: none;
   }
+
   form {
     align-items: start;
   }
