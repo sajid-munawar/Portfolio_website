@@ -186,7 +186,7 @@ form button {
 
 .art button {
   border: none;
-  width: 327px;
+  width: 100%;
   text-align: center;
   background-color: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -303,7 +303,7 @@ form button:disabled {
 
 .art button:hover {
   border: none;
-  width: 327px;
+  width: 100%;
   text-align: center;
   background-color: #9b521d;
   font-family: "Inter", sans-serif;
@@ -482,9 +482,8 @@ form textarea {
   .works .placeholder {
     padding-top: 60px;
     margin: 0;
-}
-
   }
+}
 
 @media (min-width: 768px) {
   .top-section {
@@ -536,7 +535,7 @@ form textarea {
   .content {
     width: 50%;
   }
-  
+
   .yoga {
     display: flex;
   }
@@ -545,15 +544,13 @@ form textarea {
     padding: 10%;
   }
 
-
-
   .cards {
     display: grid;
     /* grid-template-rows: auto ; */
     grid-template-rows: 435px 435px;
-   /* grid-template-columns: auto auto auto; */
-   grid-template-columns: 33% 33% 33%;
-   grid-gap: 5px;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
   }
   .works h2 {
     padding-top: 0;
@@ -562,20 +559,67 @@ form textarea {
     display: flex;
   }
 
-   .works .vector {
+  .works .vector {
     display: none;
   }
 
-  .line{
+  .line {
     padding-top: 4%;
-}
+  }
 
-.works .placeholder {
+  .works .placeholder {
     padding-top: 36px;
     /* margin: auto 24px; */
+  }
+  .desktop-for-ul>ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 30px
+  }
+  .aboutMe ul {
+    align-items: start;
+  }
+  .aboutMe-desktop {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .aboutMe-desktop p {
+    width: 40%;
+  }
+  .aboutMe {
+    background: #1c1a19 url("./images/footerIcon2/background-aboutme.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 100px;
+    background-size: 40%;
+  }
+  .aboutMe .vector {
+    display: none;
 }
 hr {
-  width: 300px;
+  margin: 10%;
+}
+.divider {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  color: #262626;;
+  margin-top: 0;
+  text-align: left;
+}
+.shape {
+  display: none;
+}
+form {
+  align-items: start;
+}
+.placeholder {
+  width: 500px;
 }
 
 }
