@@ -486,19 +486,25 @@ form textarea {
     background-size: 380px;
     background-position-x: right;
     background-position-y: -44px;
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: 300px 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
   }
   .heroheadings {
-    order: 2;
+    display: flex;
   }
   .social {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 12px;
   }
-  .marg {
-    display: grid;
-    grid-template-rows: repeat(3,33.33%);
+
+  .heroSocial {
+    display: flex;
+  }
+
+  .content {
+    width: 50%;
   }
 }
