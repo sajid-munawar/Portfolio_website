@@ -399,7 +399,7 @@ form textarea {
 .card {
   display: flex;
   flex-direction: column;
-  background-image: url('./images/bg.png');
+  background-image: url("./images/bg.png");
   background-repeat: no-repeat;
   height: 400px;
   justify-content: flex-end;
@@ -416,7 +416,7 @@ form textarea {
 
 button {
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   border: none;
   color: #fff;
   font-size: 18px;
@@ -522,7 +522,7 @@ p {
     grid-template-columns: repeat(3, 33%);
     grid-column-gap: 15px;
     grid-row-gap: 3%;
-}
+  }
 
   .tech-ul {
     gap: 15px;
@@ -559,12 +559,12 @@ p {
     padding-top: 36px;
     /* margin: auto 24px; */
   }
-  .desktop-for-ul>ul {
+  .desktop-for-ul > ul {
     justify-content: space-around;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin: 0 30px
+    margin: 0 30px;
   }
   .aboutMe ul {
     align-items: start;
@@ -588,24 +588,23 @@ p {
   }
   .aboutMe .vector {
     display: none;
-}
-hr {
-  margin: 10%;
-}
-.divider {
-  display: flex;
-  justify-content: center;
-}
-footer p {
-  color: #262626;;
-  margin-top: 0;
-  text-align: left;
-}
-.shape {
-  display: none;
-}
-form {
-  align-items: start;
-}
-
+  }
+  hr {
+    margin: 10%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    color: #262626;
+    margin-top: 0;
+    text-align: left;
+  }
+  .shape {
+    display: none;
+  }
+  form {
+    align-items: start;
+  }
 }
