@@ -54,6 +54,7 @@
   line-height: 24px;
   color: #fff;
   margin-bottom: 21px;
+  width: 100%;
 }
 
 .social {
@@ -107,6 +108,11 @@
   padding-top: 24px;
 }
 
+button,
+p {
+  max-width: 328px;
+}
+
 footer p {
   width: 327px;
   height: 216px;
@@ -154,6 +160,14 @@ footer p {
   color: #091e42;
 }
 
+button {
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
 form button {
   margin: 15px;
   background: #ff6b00;
@@ -182,20 +196,6 @@ form button {
   padding: 12px;
   margin-left: 24px;
   margin-top: 12px;
-}
-
-.art button {
-  border: none;
-  width: 327px;
-  text-align: center;
-  background-color: #ff6b00;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-top: 22px;
 }
 
 .aboutMe button {
@@ -243,76 +243,6 @@ form button:disabled {
   padding: 12px;
   margin-left: 24px;
   margin-top: 12px;
-}
-
-.art {
-  background: url("./images/bg.png");
-  background-repeat: no-repeat;
-  margin-bottom: 24px;
-}
-
-.marg {
-  margin: 0 24px;
-  margin-bottom: 120px;
-}
-
-.art h2 {
-  display: grid;
-  grid-template: 36px/327px;
-  align-items: center;
-  font-family: "Crete Round", serif;
-  color: #fff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  padding: 0 24px;
-  padding-top: 108px;
-}
-
-.art p {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 12px 24px;
-  color: #fff;
-  margin-top: 12px;
-}
-
-.art ul {
-  display: flex;
-  list-style: none;
-  padding-left: 24px;
-}
-
-.art li {
-  align-items: center;
-  padding: 10px 12px;
-  margin-right: 12px;
-  border: 1px solid #8993a4;
-  background: rgba(255, 255, 255, 0.24);
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-}
-
-.art button:hover {
-  border: none;
-  width: 327px;
-  text-align: center;
-  background-color: #9b521d;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-top: 22px;
 }
 
 .aboutMe {
@@ -470,4 +400,225 @@ form textarea {
   padding-left: 15px;
   height: 114px;
   width: 327px;
+}
+
+.main-section {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.tech-ul {
+  list-style: none;
+  display: flex;
+  width: 70%;
+  gap: 18px;
+  padding-left: 15px;
+}
+
+.tech-ul-li {
+  padding: 10px;
+  background-color: rgb(255, 255, 255, 25%);
+  color: #fff;
+}
+
+.card-paragraph {
+  color: #fff;
+  font-size: 19px;
+  padding-left: 15px;
+  width: 70%;
+}
+
+.card-header {
+  color: #fff;
+  font-size: 28px;
+  width: 70%;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .works .placeholder {
+    padding-top: 60px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-section {
+    height: 72px;
+    padding: 26px 100px;
+  }
+
+  .menu-wrapper {
+    display: none;
+  }
+
+  .nav-list {
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+  }
+
+  .nav-item {
+    margin-left: 32px;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .hero {
+    background: #1c1a19 url(./images/HeaderIcons/desktop_illustation.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    background-position-x: right;
+    background-position-y: -44px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    justify-content: flex-end;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .heroSocial {
+    display: flex;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .yoga {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 15px;
+    grid-row-gap: 3%;
+  }
+
+  .tech-ul {
+    gap: 15px;
+  }
+
+  .card {
+    max-width: 322px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-rows: 435px 435px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+  }
+
+  .works h2 {
+    padding-top: 0;
+  }
+
+  .recent {
+    display: flex;
+  }
+
+  .works .vector {
+    display: none;
+  }
+
+  .line {
+    padding-top: 4%;
+  }
+
+  .works .placeholder {
+    padding-top: 36px;
+  }
+
+  .desktop-for-ul > ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 30px;
+  }
+
+  .aboutMe ul {
+    align-items: start;
+  }
+
+  .aboutMe-desktop {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  footer p {
+    color: #262626;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .aboutMe-desktop p {
+    width: 40%;
+  }
+
+  .aboutMe {
+    background: #1c1a19 url("./images/footerIcon2/background-aboutme.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 100px;
+    background-size: 40%;
+    margin-top: 111px;
+  }
+
+  .aboutMe .vector {
+    display: none;
+  }
+
+  hr {
+    margin: 10%;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  form {
+    align-items: start;
+  }
 }
